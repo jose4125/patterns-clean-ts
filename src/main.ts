@@ -10,7 +10,9 @@ import './style.css'
 // import './solid/02-open-close/02-open-close-good'
 // import './solid/03-liskov-substitution/01-liskov-substitution-a-bad'
 // import './solid/03-liskov-substitution/02-liskov-substitution-bad'
-import './solid/03-liskov-substitution/02-liskov-substitution-good'
+// import './solid/03-liskov-substitution/02-liskov-substitution-good'
+// import './solid/05-dependency-inversion/01-dependency-inversion-a-bad';
+import './solid/05-dependency-inversion/01-dependency-inversion-a-good';
 
 const app = document.querySelector<HTMLDivElement>('#app')!
 
