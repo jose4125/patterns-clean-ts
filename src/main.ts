@@ -1,4 +1,4 @@
-import './style.css'
+import './style.css';
 // import './clean-code/05-dry'
 // import './clean-code/06-classes-a'
 // import './clean-code/06-classes-b'
@@ -12,12 +12,15 @@ import './style.css'
 // import './solid/03-liskov-substitution/02-liskov-substitution-bad'
 // import './solid/03-liskov-substitution/02-liskov-substitution-good'
 // import './solid/05-dependency-inversion/01-dependency-inversion-a-bad';
-import './solid/05-dependency-inversion/01-dependency-inversion-a-good';
+// import './solid/05-dependency-inversion/01-dependency-inversion-a-good';
+// import './design-patterns/creational/singleton/js/singleton.js';
+// import './design-patterns/creational/singleton/js/use_case.js';
+// import './design-patterns/creational/singleton/ts/singleton';
+import './design-patterns/creational/singleton/ts/use_case';
 
-const app = document.querySelector<HTMLDivElement>('#app')!
+const app = document.querySelector<HTMLDivElement>('#app')!;
 
 app.innerHTML = `
   <h1>CleanCode y SOLID</h1>
   <span>Revisar la consola de JavaScript</span>
-`
-
+`;
