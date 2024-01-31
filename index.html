@@ -9,14 +9,41 @@
   </head>
   <body>
     <div id="app"></div>
-    <div>
+    <div class="strategy" style="border: 1px solid #ccc;">
+      <h4>strategy</h4>
       <select name="selectCarInfoFormat" class="info-format">
         <option value="0">List</option>
         <option value="1">Detail List</option>
         <option value="2">image List</option>
       </select>
+      <div class="contentStrategy"></div>
     </div>
-    <div class="content"></div>
+    <br>
+    <div class="observer" style="border: 1px solid #ccc;">
+      <h4>observer</h4>
+      <div style="border: 1px solid #ccc;">
+        <h4>observer 1</h4>
+        <input type="text" class="message">
+        <div class="div1">bla</div>
+        <div class="div2" style="color: red;">bla</div>
+      </div>
+      <br>
+      <div style="border: 1px solid #ccc;">
+        <h4>observer 2</h4>
+        <label for="name">Name:</label>
+        <input type="text" class="name">
+        <button class="addBtn">Add</button>
+        <div class="name3"></div>
+        <div class="name1"></div>
+        <div class="name2" style="color: red;"></div>
+      </div>
+      <br>
+      <div style="border: 1px solid #ccc;">
+        <h4>observer 3</h4>
+        <p>car speed:</p>
+        <div class="carSpeed"></div>
+      </div>
+    </div>
     <script type="module" src="/src/main.ts"></script>
   </body>
 </html>

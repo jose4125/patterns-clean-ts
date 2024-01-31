@@ -96,7 +96,7 @@ class ImageListStrategy {
 }
 
 
-const element = document.querySelector('.content')
+const element = document.querySelector('.contentStrategy')
 const strategies = [
   new ListStrategy(),
   new DetailsListStrategy(),
