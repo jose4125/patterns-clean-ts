@@ -25,6 +25,10 @@ import './design-patterns/behavioral/observer/js/observer.js';
 import './design-patterns/behavioral/observer/js/use_case_1.js';
 import './design-patterns/behavioral/observer/ts/observer';
 import './design-patterns/behavioral/observer/ts/use_case_1';
+import './design-patterns/creational/builder/js/builder.js';
+import './design-patterns/creational/builder/js/builder-with-director.js';
+import './design-patterns/creational/builder/js/use_case_1.js';
+import './design-patterns/creational/builder/ts/builder-with-director';
 
 const app = document.querySelector<HTMLDivElement>('#app')!;
 
