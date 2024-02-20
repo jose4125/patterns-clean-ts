@@ -20,7 +20,7 @@ import './style.css';
 // import './design-patterns/behavioral/strategy/js/strategy.js'
 // import './design-patterns/behavioral/strategy/js/use_case_1.js'
 // import './design-patterns/behavioral/strategy/ts/strategy'
-import './design-patterns/behavioral/strategy/ts/use_case_1'
+import './design-patterns/behavioral/strategy/ts/use_case_1';
 import './design-patterns/behavioral/observer/js/observer.js';
 import './design-patterns/behavioral/observer/js/use_case_1.js';
 import './design-patterns/behavioral/observer/ts/observer';
@@ -29,6 +29,8 @@ import './design-patterns/creational/builder/js/builder.js';
 import './design-patterns/creational/builder/js/builder-with-director.js';
 import './design-patterns/creational/builder/js/use_case_1.js';
 import './design-patterns/creational/builder/ts/builder-with-director';
+import './design-patterns/behavioral/state/js/state.js';
+import './design-patterns/behavioral/state/js/use_case_1.js';
 
 const app = document.querySelector<HTMLDivElement>('#app')!;
 
