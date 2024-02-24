@@ -31,6 +31,7 @@ import './design-patterns/creational/builder/js/use_case_1.js';
 import './design-patterns/creational/builder/ts/builder-with-director';
 import './design-patterns/behavioral/state/js/state.js';
 import './design-patterns/behavioral/state/js/use_case_1.js';
+import './design-patterns/behavioral/state/ts/state';
 
 const app = document.querySelector<HTMLDivElement>('#app')!;
 
