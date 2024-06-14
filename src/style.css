@@ -6,3 +6,12 @@
   color: #2c3e50;
   margin-top: 60px;
 }
+
+h2 {
+  margin: 0;
+}
+
+a {
+  display: block;
+  margin: 10px 0;
+}

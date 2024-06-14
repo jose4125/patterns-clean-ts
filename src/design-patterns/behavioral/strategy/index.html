@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.css"
+    />
+    <title>Vite App</title>
+  </head>
+  <body>
+    <div id="app"></div>
+    <div class="strategy" style="border: 1px solid #ccc">
+      <h4>strategy</h4>
+      <select name="selectCarInfoFormat" class="info-format">
+        <option value="0">List</option>
+        <option value="1">Detail List</option>
+        <option value="2">image List</option>
+      </select>
+      <div class="contentStrategy"></div>
+    </div>
+    <script type="module" src="./main.ts"></script>
+  </body>
+</html>
